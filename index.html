@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Riya Verma | Travel Blog</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Poppins',sans-serif;
+        }
+
+        html{
+            scroll-behavior:smooth;
+        }
+
+        body{
+            background:#0f172a;
+            color:white;
+        }
+
+        section{
+            padding:90px 8%;
+        }
+
+        .glass{
+            background:rgba(255,255,255,.08);
+            backdrop-filter:blur(15px);
+            border:1px solid rgba(255,255,255,.15);
+        }
+
+        .hero{
+            background:
+            linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.65)),
+            url("images/kedarnath.jpg");
+
+            background-size:cover;
+            background-position:center;
+            background-attachment:fixed;
+        }
+
+        .title{
+            background:linear-gradient(90deg,#FFD54F,#FF9800);
+            -webkit-background-clip:text;
+            -webkit-text-fill-color:transparent;
+        }
+
+        .btn{
+            padding:14px 35px;
+            border-radius:40px;
+            transition:.4s;
+            font-weight:600;
+        }
+
+        .btn:hover{
+            transform:translateY(-5px);
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+            transition:.4s;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="fixed top-0 left-0 w-full z-50 bg-slate-900/80 backdrop-blur-lg shadow-xl">
+
+<div class="max-w-7xl mx-auto flex justify-between items-center px-8 py-5">
+
+<h1 class="text-3xl font-bold title">
+
+Riya Verma
+
+</h1>
+
+<ul class="hidden md:flex gap-5 text-lg">
+
+<li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+
+<li><a href="#about" class="hover:text-yellow-400">About</a></li>
+
+<li><a href="#journey" class="hover:text-yellow-400">Journey</a></li>
+
+<li><a href="#gallery" class="hover:text-yellow-400">Gallery</a></li>
+
+<li><a href="#quotes" class="hover:text-yellow-400">Thoughts</a></li>
+
+<li><a href="contact.html"class="hover:text-yellow-400">Contact</a></li>
+
+</ul>
+
+</div>
+
+</nav>
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero h-screen flex items-center justify-center text-center">
+
+<div>
+
+<p class="uppercase tracking-[6px] text-yellow-300 mb-4">
+
+Welcome To My Travel Diary
+
+</p>
+
+<h1 class="text-4xl md:text-6xl font-extrabold leading-tight">
+<br>
+
+I'm
+
+<span class="title">
+
+Riya Verma
+
+</span>
+
+</h1>
+
+<p class="text-2xl mt-8 text-gray-200">
+
+Travel Blogger • Story Teller • Nature Lover
+
+</p>
+
+<p class="mt-8 max-w-3xl mx-auto text-lg leading-9 text-gray-300">
+
+Every journey teaches something that books never can.
+
+From the peaceful banks of Rishikesh to the sacred mountains of Kedarnath,
+
+this blog is a collection of unforgettable memories, photographs,
+
+travel experiences, and inspiring thoughts.
+
+</p>
+
+<div class="mt-12 flex flex-wrap justify-center gap-5">
+
+    <!-- Journey -->
+    <a href="#journey"
+       class="px-8 py-4 bg-yellow-400 text-black rounded-full font-semibold hover:bg-yellow-500 transition duration-300">
+        🏔 Read My Journey
+    </a>
+
+    <!-- Gallery -->
+    <a href="#gallery"
+       class="px-8 py-4 border-2 border-yellow-400 text-yellow-400 rounded-full font-semibold hover:bg-yellow-400 hover:text-black transition duration-300">
+        📷 Explore Gallery
+    </a>
+
+    <!-- Contact -->
+    <a href="contact.html"
+       class="px-8 py-4 bg-white text-slate-900 rounded-full font-semibold hover:bg-gray-200 transition duration-300">
+        📩 Contact Me
+    </a>
+
+</div>
+<div class="mt-20 animate-bounce text-4xl">
+
+↓
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about">
+
+<div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+
+<div>
+
+<img src="images/Kedarnath (1).jpeg"
+
+class="rounded-3xl shadow-2xl">
+
+</div>
+
+<div>
+
+<h4 class="text-yellow-400 text-xl">
+
+About Me
+
+</h4>
+
+<h2 class="text-5xl font-bold mt-3">
+
+Travel is My
+
+<span class="title">
+
+Passion
+
+</span>
+
+</h2>
+
+<p class="mt-6 leading-5 text-gray-200">
+
+Hello!
+
+I'm Verma.
+
+I believe every destination has a story waiting to be discovered.
+
+Travel isn't just about reaching beautiful places—
+
+it's about collecting unforgettable memories,
+
+meeting wonderful people,
+
+finding peace in nature,
+
+and discovering yourself.
+
+</p>
+
+<p class="mt-6 leading-9 text-gray-300">
+
+My Kedarnath and Rishikesh journey became one of the most memorable experiences of my life.
+
+Through this blog,
+
+I share my travel stories,
+
+photography,
+
+helpful travel tips,
+
+and Hindi interpretations of meaningful English quotes that inspire me every day.
+
+</p>
+
+<div class="grid grid-cols-2 gap-6 mt-10">
+
+<div class="glass p-6 rounded-3xl card">
+
+<h3 class="text-yellow-400 text-3xl">
+
+🏔
+
+</h3>
+
+<h4 class="mt-4 font-semibold">
+
+Mountain Lover
+
+</h4>
+
+<p class="text-gray-400 mt-2">
+
+Peace begins where the mountains meet the sky.
+
+</p>
+
+</div>
+
+<div class="glass p-6 rounded-3xl card">
+
+<h3 class="text-yellow-400 text-3xl">
+
+📷
+
+</h3>
+
+<h4 class="mt-4 font-semibold">
+
+Photography
+
+</h4>
+
+<p class="text-gray-400 mt-2">
+
+Capturing beautiful memories through every journey.
+
+</p>
+
+</div>
+
+<div class="glass p-6 rounded-3xl card">
+
+<h3 class="text-yellow-400 text-3xl">
+
+🌿
+
+</h3>
+
+<h4 class="mt-4 font-semibold">
+
+Nature
+
+</h4>
+
+<p class="text-gray-400 mt-2">
+
+Finding happiness in rivers, forests and mountains.
+
+</p>
+
+</div>
+
+<div class="glass p-6 rounded-3xl card">
+
+<h3 class="text-yellow-400 text-3xl">
+
+🕉
+
+</h3>
+
+<h4 class="mt-4 font-semibold">
+
+Spiritual Journey
+
+</h4>
+
+<p class="text-gray-400 mt-2">
+
+Travel that connects the heart with faith.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PART 2 STARTS HERE -->
+<!-- ================= JOURNEY ================= -->
+
+<section id="journey" class="bg-slate-950">
+
+<div class="max-w-7xl mx-auto">
+
+<div class="text-center mb-16">
+
+<p class="text-yellow-400 text-xl">
+My Journey
+</p>
+
+<h2 class="text-5xl font-bold mt-4">
+
+Travel
+
+<span class="title">
+
+Diary
+
+</span>
+
+</h2>
+
+<p class="text-gray-400 mt-6 max-w-3xl mx-auto leading-8">
+
+Every destination tells a different story. Some journeys refresh the mind, while others transform the soul.
+
+</p>
+
+</div>
+
+<div class="grid lg:grid-cols-2 gap-10">
+
+<!-- Kedarnath -->
+
+<div class="glass rounded-3xl overflow-hidden card">
+
+<img src="images/Kedarnath (1).jpeg"
+class="w-full h-72 object-cover">
+
+<div class="p-8">
+
+<h3 class="text-3xl font-bold">
+
+🏔 Kedarnath
+
+</h3>
+
+<p class="mt-5 text-gray-300 leading-8">
+
+Walking through the Himalayan mountains toward Kedarnath was one of the most unforgettable experiences of my life. Every step strengthened my faith while the snow-covered peaks made the journey magical.
+
+</p>
+
+<div class="grid grid-cols-2 gap-4 mt-8">
+
+<div class="bg-slate-800 rounded-xl p-4">
+📍 Sonprayag
+</div>
+
+<div class="bg-slate-800 rounded-xl p-4">
+🥾 Gaurikund Trek
+</div>
+
+<div class="bg-slate-800 rounded-xl p-4">
+🛕 Kedarnath Temple
+</div>
+
+<div class="bg-slate-800 rounded-xl p-4">
+🌄 Himalayan Sunrise
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Rishikesh -->
+
+<div class="glass rounded-3xl overflow-hidden card">
+
+<img src="images/Kedar (2).jpeg"
+class="w-full h-72 object-cover">
+
+<div class="p-8">
+
+<h3 class="text-3xl font-bold">
+
+🌊 Rishikesh
+
+</h3>
+
+<p class="mt-5 text-gray-300 leading-8">
+
+The peaceful flow of the Ganga, the mesmerizing Ganga Aarti, and the calm atmosphere of Rishikesh created memories that will stay with me forever.
+
+</p>
+
+<div class="grid grid-cols-2 gap-4 mt-8">
+
+<div class="bg-slate-800 rounded-xl p-4">
+🌉 Lakshman Jhula
+</div>
+
+<div class="bg-slate-800 rounded-xl p-4">
+🪔 Ganga Aarti
+</div>
+
+<div class="bg-slate-800 rounded-xl p-4">
+🚣 River Rafting
+</div>
+
+<div class="bg-slate-800 rounded-xl p-4">
+☕ Riverside Cafés
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= TIMELINE ================= -->
+
+<section>
+
+<div class="max-w-6xl mx-auto">
+
+<div class="text-center">
+
+<h2 class="text-5xl font-bold">
+
+Journey
+
+<span class="title">
+
+Timeline
+
+</span>
+
+</h2>
+
+</div>
+
+<div class="mt-20 border-l-4 border-yellow-400 pl-8 space-y-16">
+
+<div>
+
+<h3 class="text-2xl font-semibold">
+
+🚆 Haridwar
+
+</h3>
+
+<p class="text-gray-400 mt-3">
+
+The journey began with the holy city of Haridwar, where spirituality welcomed us.
+
+</p>
+
+</div>
+
+<div>
+
+<h3 class="text-2xl font-semibold">
+
+🌊 Rishikesh
+
+</h3>
+
+<p class="text-gray-400 mt-3">
+
+Witnessed the magical evening Ganga Aarti and explored the beautiful ghats.
+
+</p>
+
+</div>
+
+<div>
+
+<h3 class="text-2xl font-semibold">
+
+📍 Sonprayag
+
+</h3>
+
+<p class="text-gray-400 mt-3">
+
+The gateway to Kedarnath filled with excitement and devotion.
+
+</p>
+
+</div>
+
+<div>
+
+<h3 class="text-2xl font-semibold">
+
+🥾 Gaurikund
+
+</h3>
+
+<p class="text-gray-400 mt-3">
+
+The starting point of the unforgettable mountain trek.
+
+</p>
+
+</div>
+
+<div>
+
+<h3 class="text-2xl font-semibold">
+
+🏔 Kedarnath Temple
+
+</h3>
+
+<p class="text-gray-400 mt-3">
+
+Finally reached one of India's most sacred temples surrounded by majestic Himalayas.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= GALLERY ================= -->
+
+<section id="gallery" class="bg-slate-950">
+
+<div class="max-w-7xl mx-auto">
+
+<div class="text-center mb-16">
+
+<h2 class="text-5xl font-bold">
+
+Photo
+
+<span class="title">
+
+Gallery
+
+</span>
+
+</h2>
+
+<p class="text-gray-400 mt-5">
+
+A few unforgettable moments captured during my journey.
+
+</p>
+
+</div>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<img src="C:\Users\NISHA\Downloads\New folder (3)\Images\imageshome1.jpeg"
+class="rounded-3xl hover:scale-105 duration-500 cursor-pointer shadow-xl">
+
+<img src="images/Kedarnath (1).jpeg"
+class="rounded-3xl hover:scale-105 duration-500 cursor-pointer shadow-xl">
+
+<img src="images/Kedarnath (2).jpeg"
+class="rounded-3xl hover:scale-105 duration-500 cursor-pointer shadow-xl">
+
+<img src="images/Riya.jpeg"
+class="rounded-3xl hover:scale-105 duration-500 cursor-pointer shadow-xl">
+
+<img src="images/Kedar.jpeg"
+class="rounded-3xl hover:scale-105 duration-500 cursor-pointer shadow-xl">
+
+<img src="images/Kedar (3).jpeg"
+class="rounded-3xl hover:scale-105 duration-500 cursor-pointer shadow-xl">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= HINDI THOUGHTS ================= -->
+
+<section id="quotes">
+
+<div class="max-w-6xl mx-auto">
+
+<div class="text-center">
+
+<h2 class="text-5xl font-bold">
+
+Hindi
+
+<span class="title">
+
+Thoughts
+
+</span>
+
+</h2>
+
+<p class="text-gray-400 mt-5">
+
+English Quotes with Hindi Interpretation
+
+</p>
+
+</div>
+
+<div class="grid md:grid-cols-2 gap-8 mt-16">
+
+<div class="glass rounded-3xl p-8 card">
+
+<h3 class="text-yellow-400 text-xl">
+
+"The journey is more important than the destination."
+
+</h3>
+
+<p class="mt-6 leading-8 text-gray-300">
+
+मंज़िल तक पहुँचना ज़रूरी है, लेकिन रास्ते में मिलने वाले अनुभव ही जीवन की सबसे बड़ी सीख बनते हैं।
+
+</p>
+
+</div>
+
+<div class="glass rounded-3xl p-8 card">
+
+<h3 class="text-yellow-400 text-xl">
+
+"Mountains are calling and I must go."
+
+</h3>
+
+<p class="mt-6 leading-8 text-gray-300">
+
+पहाड़ केवल घूमने की जगह नहीं, बल्कि मन को शांति देने वाला एहसास हैं।
+
+</p>
+
+</div>
+
+<div class="glass rounded-3xl p-8 card">
+
+<h3 class="text-yellow-400 text-xl">
+
+"Faith can move mountains."
+
+</h3>
+
+<p class="mt-6 leading-8 text-gray-300">
+
+सच्चा विश्वास हर कठिन रास्ते को आसान बना देता है।
+
+</p>
+
+</div>
+
+<div class="glass rounded-3xl p-8 card">
+
+<h3 class="text-yellow-400 text-xl">
+
+"Travel leaves you speechless, then turns you into a storyteller."
+
+</h3>
+
+<p class="mt-6 leading-8 text-gray-300">
+
+यात्रा पहले हमें प्रकृति की सुंदरता में खो देती है, फिर वही यादें हमें कहानी सुनाना सिखाती हैं।
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PART 3 STARTS HERE -->
+<section class="min-h-screen bg-slate-900 text-white py-20">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+
+        <!-- Left Content -->
+        <div>
+            <p class="text-yellow-400 uppercase tracking-widest">
+                Welcome to My Travel Diary
+            </p>
+
+            <h1 class="text-4xl font-bold mt-3">
+                Hi, I'm
+                <span class="text-yellow-300">Riya Verma</span>
+            </h1>
+
+            <p class="mt-6 text-gray-300 text-lg leading-8">
+                Exploring the beauty of Kedarnath, Rishikesh and the Himalayas,
+                one journey at a time.
+            </p>
+
+            <a href="#journey"
+               class="inline-block mt-8 bg-yellow-400 text-black px-8 py-3 rounded-full font-semibold">
+               Explore Journey
+            </a>
+        </div>
+
+     
+        </div>
+
+    </div>
+</section>
